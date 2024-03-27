@@ -1,5 +1,5 @@
 services:
-  - name: backup-db
+  - name: postgres-s3-backup
     type: cron
     schedule: "0 * * * *"
     region: oregon
